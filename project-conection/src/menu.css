@@ -1,5 +1,5 @@
 
-.teste{
+.menu-center{
     display: flex;
     justify-content: center;
 }
@@ -10,15 +10,16 @@ nav {
      
 }
 .big-box{
+    height: 8vh;
     width: 150vh;
-    border-radius: 20px;
-    background-color:  #646cff;
+    border-radius: 1vh;
+    background-color:  #d1530a;
     color: whitesmoke;
 }
 
 .into-box {
-    align-items: center;
-    display: flex;
+    /* align-items: center;
+    display: flex; */
     justify-content: space-around
     
 }
@@ -26,6 +27,7 @@ nav {
 .links-menu {
     color: whitesmoke;
     text-decoration: none;
+    font-size: 25px;
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 
 }
