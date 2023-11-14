@@ -1,7 +1,7 @@
 function Contato () {
     return (
         <div>
-            <a target="_blank">Contato</a>
+            <h1 target="_blank">Contato</h1>
         </div>
     )
 }

@@ -3,8 +3,8 @@ import Menu from "./Menu"
 function Home () {
     return(
         <div>
-            <h1> Home </h1>
             <Menu/>
+            {/* <h1> Conteúdo da Home </h1> */}
         </div>
         
     )

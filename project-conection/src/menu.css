@@ -1,0 +1,35 @@
+
+.teste{
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;       
+     
+}
+.big-box{
+    width: 150vh;
+    border-radius: 20px;
+    background-color:  #646cff;
+    color: whitesmoke;
+}
+
+.into-box {
+    align-items: center;
+    display: flex;
+    justify-content: space-around
+    
+}
+
+.links-menu {
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+}
+
+
+
+
