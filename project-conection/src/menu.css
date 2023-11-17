@@ -10,10 +10,10 @@ nav {
      
 }
 .big-box{
-    height: 8vh;
-    width: 150vh;
+    height: 13.8vh;
+    width: 100%;
     border-radius: 1vh;
-    background-color:  #d1530a;
+    background-color: #000000;
     color: whitesmoke;
 }
 

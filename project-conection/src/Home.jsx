@@ -4,7 +4,7 @@ function Home () {
     return(
         <div>
             <Menu/>
-            {/* <h1> Conteúdo da Home </h1> */}
+            <h1> Conteúdo da Home </h1>
         </div>
         
     )
