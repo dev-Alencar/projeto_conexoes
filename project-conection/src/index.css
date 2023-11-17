@@ -73,3 +73,8 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+
+:root{
+  padding-left: 122px;
+  padding-right: 122px;
+}

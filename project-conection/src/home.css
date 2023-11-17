@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Work+Sans&display=swap');
+
+.teste {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 40px;
+   
+}
+
+.teste2{
+    display: flex;
+    flex-direction: column;
+}
+
+.danca-img {
+    Width: 588px;
+    Height: 464px
+}
+
+.image1 {
+    display: flex;
+    width: 284px;
+    height: 219px;
+    margin-left: 30px;
+}
+
+.image2 {
+    margin-top: 245px;
+    margin-left: -285px; 
+    width: 284px;
+    height: 218px;
+}
+
+.image4 {
+    width: 282px;
+    Height: 464px;
+    margin-left: 15px;
+}
+
+.box-about {
+    margin-top: 80px;
+}
+
+.title {
+    font-size: 32px;
+    font-family:'Fjalla One';
+    font-weight:400;
+    color: #000000;
+}
+
+.text {
+    width: 100%;
+    font-size: 22px;
+    font-family:'Work Sans';
+    font-weight:400;
+    color: #000000;
+}
+
+
+.box-category {
+
+}
+
+.button-event {
+    width: 281.53px;
+    height: 64px;
+    border: none
+}
+
+.second-button {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.last-button {
+    margin-left: 20px;
+}
+
+.text-buttons {
+    font-size: 20px;
+    font-family:'Fjalla One';
+    font-weight:400;
+    color: #000000;
+}
+
+.draft-box {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.draft-img {
+    width: 50%;
+    height: 60%;
+    /* width: 513.62px;
+    height: 231.12px; */
+}
+
+
+
+
