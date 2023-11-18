@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Work+Sans&display=swap');
 
+
 .teste {
     display: flex;
     justify-content: center;
-
     margin-top: 40px;
-   
 }
 
 .teste2{
@@ -96,7 +95,3 @@
     /* width: 513.62px;
     height: 231.12px; */
 }
-
-
-
-

@@ -11,7 +11,7 @@ function Home () {
     return(
         <div>
             <Menu/>
-            <div className='teste'>
+            <div className='teste(grid-img)'>
                 <img className='danca-img' src={danca}/>
                 <img className='image1' src={image1}/>
                 <div className='teste2'>

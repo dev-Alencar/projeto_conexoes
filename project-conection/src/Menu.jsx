@@ -1,24 +1,27 @@
 import './menu.css'
+import LOGO2 from './assets/LOGO1.png'
 
 import { Link } from "react-router-dom"
 
-function Menu () {
+ function Menu () {
     return(
     <div>
-        <div className='menu-center'>
-            <div className='big-box'>
-                    <nav className='into-box'>
-                        <Link  target="_blank" className='links-menu' to="/"> Home </Link> <br/> <br/>
-                        <Link  target="_blank" className='links-menu' to="/sobre"> Sobre</Link> <br/> <br/>
-                        <Link  target="_blank" className='links-menu' to='/contato'   > Contato </Link> <br/> <br/>
-                        <Link  target="_blank" className='links-menu' to="/noticias"> Notícias </Link> <br/> <br/>
-                    </nav>
+        <div className='container'>
+            <div className='logo'> 
+                <img src={LOGO2}></img>
             </div>
-    </div>
+            <div className='m'>
+                <nav className='nav-bar'>
+                    <Link  target="_blank" className='nav-item' to="/"> Home </Link> <br/> <br/>
+                    <Link  target="_blank" className='nav-item' to="/sobre"> Sobre </Link> <br/> <br/>
+                    <Link  target="_blank" className='nav-item' to="/noticias"> Noticias </Link> <br/> <br/>
+                    <Link  target="_blank" className='nav-item' to="/contato"> Contato </Link> <br/> <br/>
+                </nav>
+            </div>
+        </div>
     </div>   
     
-     
-    )
-}
+     )
+ }
 
 export default Menu
