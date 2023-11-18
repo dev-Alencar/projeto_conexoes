@@ -56,11 +56,6 @@
     color: #000000;
 }
 
-
-.box-category {
-
-}
-
 .button-event {
     width: 281.53px;
     height: 64px;
@@ -81,6 +76,7 @@
     font-family:'Fjalla One';
     font-weight:400;
     color: #000000;
+    text-decoration: none;
 }
 
 .draft-box {
