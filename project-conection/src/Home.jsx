@@ -66,12 +66,8 @@ function Home () {
                         </div>
                     </section>
                 </div>
-            </div>
 
-            
-
-
-            <div>
+                <div>
             <h1 className='title'>PRÓXIMOS <br/>EVENTOS</h1>
             <div className='box-next-event'>
                 <img className='tambor' src={tambor}/>
@@ -89,6 +85,12 @@ function Home () {
                 </div>
             </div>
         </div>
+            </div>
+
+            
+
+
+
 
 
             <Footer/>
