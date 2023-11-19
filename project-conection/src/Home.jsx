@@ -9,6 +9,7 @@ import danca from './assets/danca.jpg'
 import foto from './assets/cinema.jpeg'
 import cultura from './assets/cultura.webp'
 import teatro from './assets/teatro.jpg'
+import tambor from './assets/tambor.jpg'
 function Home () {
     return (
         <div>
@@ -66,8 +67,32 @@ function Home () {
                     </section>
                 </div>
             </div>
-            <Footer/>
+
+            
+
+
+            <div>
+            <h1 className='title'>PRÓXIMOS <br/>EVENTOS</h1>
+            <div className='box-next-event'>
+                <img className='tambor' src={tambor}/>
+                <div className='gray-box'>
+                    <h2 className='title-gray-box'>Festival de maracatu</h2>
+
+
+                    <p className='subtitle-gray-box'>14/08/24</p>
+                    <p className='subtitle-gray-box'>Recife Antigo</p>
+
+
+                    <button className='button-grey-box'>
+                    <Link className='link-gray-box  subtitle-gray-box' target="_blank" to="/">  VER </Link>
+                    </button>
+                </div>
+            </div>
         </div>
+
+
+            <Footer/>
+    </div>
         
     )
 }

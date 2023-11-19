@@ -8,7 +8,7 @@ import { Link } from "react-router-dom"
     <div>
         <div className='container'>
             <div className='logo'> 
-                <img src={LOGO2}></img>
+                <img className='img-logo' src={LOGO2}></img>
             </div>
             <div className='m'>
                 <nav className='nav-bar'>
