@@ -1,5 +1,6 @@
 import Menu from "./Menu"
 import Footer from "./Footer"
+import { Link } from "react-router-dom"
 
 import './home.css'
 import './index.css'
