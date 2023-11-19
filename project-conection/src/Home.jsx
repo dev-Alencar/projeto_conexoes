@@ -9,8 +9,6 @@ import danca from './assets/danca.jpg'
 import foto from './assets/cinema.jpeg'
 import cultura from './assets/cultura.webp'
 import teatro from './assets/teatro.jpg'
-import destaque from './assets/destaque-do-mes.jpeg'
-import { Link } from "react-router-dom"
 function Home () {
     return (
         <div>
