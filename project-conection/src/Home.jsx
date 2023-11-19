@@ -1,68 +1,74 @@
 import Menu from "./Menu"
+import Footer from "./Footer"
 
 import './home.css'
+import './index.css'
 
-import danca from './assets/image3.jpeg'
-import image1 from './assets/image1.jpeg'
-import image2 from './assets/image2.jpeg'
-import image4 from './assets/image4.jpeg'
+import danca from './assets/danca.jpg'
+import foto from './assets/cinema.jpeg'
+import cultura from './assets/cultura.webp'
+import teatro from './assets/teatro.jpg'
 import destaque from './assets/destaque-do-mes.jpeg'
+import { Link } from "react-router-dom"
 function Home () {
-    return(
+    return (
         <div>
             <Menu/>
-            <div className='teste(grid-img)'>
-                <img className='danca-img' src={danca}/>
-                <img className='image1' src={image1}/>
-                <div className='teste2'>
-                    <img className='image2' src={image2}/>
+            <div className="main">
+                <section className="banner">
+                    <img src={danca} className="b1" alt="Banner dança"></img>
+                    <img src={cultura} className="b2" alt="Banner cultura"></img>
+                    <img src={foto} className="b3 "alt="Banner foto"></img>
+                    <img src={teatro} className="b4" alt="Banner teatro"></img>
+                </section>
+
+                <div className='box-about'>
+                    <h1 className='title'> SOBRE </h1>
+                    <p className='text-about'> Bem-vindo ao site da Sejuv Recife, a Secretaria Executiva da Juventude que tem como missão principal promover e fortalecer a participação ativa dos jovens na construção de uma cidade mais inclusiva e dinâmica. 
+                    Aqui você irá encontrar datas dos próximos eventos, formulários para inscrições, editais e outras informações como nossas redes sociais e canais de contato.</p>
                 </div>
-                <div className='image4'>
-                <img className='image4' src={image4}/>
+
+                <div className="box-container">
+                    <section className="box-category">
+                        <h1 className="title"> CATEGORIAS </h1>
+                        <nav className="list">
+                            <Link  target="_blank" className='list-item' to="/"> Guias </Link>
+                            <Link  target="_blank" className='list-item' to="/"> Informações </Link>
+                            <Link  target="_blank" className='list-item' to="https://www.instagram.com/stories/highlights/18248633476056323/"> Equipe </Link>
+                            <Link  target="_blank" className='list-item' to="https://www.gov.br/mdh/pt-br/idjovem"> ID JOVEM </Link>
+                            <Link  target="_blank" className='list-item' to="/"> Inscrições </Link>
+                            <Link  target="_blank" className='list-item' to="https://xopreconceito.recife.pe.gov.br/denrs/"> Denuncias </Link>
+                            
+                        </nav>
+                    </section>
+                    <section className="box-destaques">
+                        <h1 className="title"> DESTAQUES </h1>
+                        <div className="barra"></div>
+                        <div id="carrossel">
+                            <ul>
+                                <li>
+                                    <div className="carrossel-container">
+                                        <img src="https://i1.wp.com/emotioncard.com.br/wp-content/uploads/2016/03/10-nat1.jpg?resize=660%2C495&ssl=1" alt="img1" />
+                                    </div>
+                                </li>
+                                <li>
+                                    <div className="carrossel-container">
+                                        <img src="https://s.dicio.com.br/teste.png" alt="img1" />    
+                                    </div>
+                                </li>
+                                <li>
+                                    <div className="carrossel-container">
+                                        <img src="https://i0.wp.com/emotioncard.com.br/wp-content/uploads/2016/03/natureza_.jpg?resize=660%2C352&ssl=1" alt="img1" />   
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </section>
                 </div>
             </div>
-            
-         <div className='box-about'>
-                <h1 className='title'> SOBRE </h1>
-                <p className='text'> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-         </div>
-
-
-
-        <div className="box-category">
-
-         <h1 className='title'>CATEGORIAS</h1>
-                <div>
-                    <button className="button-event">
-                        <p className='text-buttons'>EVENTOS</p>
-                    </button>
-                    <button className="button-event second-button">
-                        <p className='text-buttons'>EVENTOS</p>
-                    </button>
-                </div>
-
-                <div>
-                    <button className="button-event">
-                        <p className='text-buttons'>EVENTOS</p>
-                    </button>
-                    <button className="button-event second-button">
-                        <p className='text-buttons'>EVENTOS</p>
-                    </button>
-                </div>
-
-                <div>
-                    <button className="button-event">
-                        <p className='text-buttons'>EVENTOS</p>
-                    </button>
-                    <button className="button-event last-button">
-                        <p className='text-buttons'>EVENTOS</p>
-                    </button>
-                </div>
-        <div className='draft-box'>
-        <img className='draft-img' src={destaque}/>
+            <Footer/>
         </div>
-        </div> 
-    </div>
         
     )
 }

@@ -1,23 +1,4 @@
-@import url('./normalize.css');
-@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Work+Sans&display=swap');
-
-* {
-    box-sizing: border-box;
-}
-
-:root {
-    /* cores usadas */
-    --amarelo: #FFC756;
-    --laranja: #F66139;
-    --lilas: #7F8FFE;
-    --verde: #56B78C;
-    --cinza-claro: #D9D9D9;
-    --cinza-escuro: #959595;
-
-    /* fontes */
-    --fonte-primaria: 'Fjalla One', sans-serif;
-    --fonte-secundaria: 'Work Sans', sans-serif;
-}
+@import './index.css';
 
 /* body {
     font-family: var(--fonte-secundaria);
@@ -70,4 +51,38 @@ img {
 
 .nav-item a:hover {
     color: var(--amarelo);
+}
+
+
+/* footer */
+
+.container-footer {
+    display: flex;
+    /* justify-content: space-evenly; */
+    background-color: black;
+    margin-top: 25%;
+    font-size: 14px;
+    padding: 20px 20px 0;
+    /* line-height: 2; */
+    /* white-space: nowrap; */
+}
+
+.footer-title {
+    color: var(--cinza-claro);
+    font-family: var(--fonte-primaria);
+}
+
+.footer-bar {
+    
+}
+.footer-bar2 {
+    /* justify-content: center; */
+}
+.footer-list {
+    width: 135px;
+    text-align: left;
+    color: var(--cinza-claro);
+    font-family: var(--fonte-secundaria);
+    text-decoration: none;
+    color: inherit;
 }
