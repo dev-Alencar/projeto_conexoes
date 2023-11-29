@@ -1,0 +1,51 @@
+@import './index.css';
+/* footer */
+
+.container-footer {
+    display: flex;
+    background-color: var(--preto);
+    color: var(--cinza-claro);
+    margin-top: 25%;
+    font-size: 14px;
+    font-family: var(--fonte-primaria);
+    padding: 20px 100px 0;
+    justify-content: space-between;
+    /* justify-content: space-evenly; */
+    /* white-space: nowrap; */
+}
+
+.footer-list {
+    /* width: 135px; */
+    padding: 0 5px;
+    line-height: 1;
+}
+
+.footer-bar {
+    font-family: var(--fonte-secundaria);
+}
+.footer-title {
+    font-size: 17px;
+    font-family: var(--fonte-primaria);
+    text-transform: uppercase;
+}
+
+.footer-item {
+    font-family: var(--fonte-secundaria);
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-logo {
+    font-size: 12px;
+    padding-right: 5%;
+}
+
+.img-logof {
+    width: 90px;
+    height: 90px;
+    margin: 3%;
+}
+
+.conexoes {
+    font-family: var(--fonte-secundaria);
+}

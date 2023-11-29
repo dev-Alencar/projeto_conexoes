@@ -10,6 +10,8 @@ import foto from './assets/cinema.jpeg'
 import cultura from './assets/cultura.webp'
 import teatro from './assets/teatro.jpg'
 import tambor from './assets/tambor.jpg'
+import feju from './assets/FEJU.png'
+import batalha from './assets/BATALHA.jpg'
 function Home () {
     return (
         <div>
@@ -66,36 +68,44 @@ function Home () {
                         </div>
                     </section>
                 </div>
-
-                <div>
-            <h1 className='title'>PRÓXIMOS <br/>EVENTOS</h1>
-            <div className='box-next-event'>
-                <img className='tambor' src={tambor}/>
-                <div className='gray-box'>
-                    <h2 className='title-gray-box'>Festival de maracatu</h2>
-
-
-                    <p className='subtitle-gray-box'>14/08/24</p>
-                    <p className='subtitle-gray-box'>Recife Antigo</p>
-
-
-                    <button className='button-grey-box'>
-                    <Link className='link-gray-box  subtitle-gray-box' target="_blank" to="/">  VER </Link>
-                    </button>
+        
+                <div className="box-events">
+                    <h1 className='title'>PRÓXIMOS EVENTOS</h1>
+                    <div className="box-events-display">
+                        <div className="events-item">
+                            <img className='events-img' src={tambor} alt='Conexões Periféricas'/>
+                            <h2>Festival de maracatu</h2>
+                            <h4>14/08/22</h4>
+                            <h5>Recife Antigo</h5>
+                            <Link className="button-events" target="_blank" to="https://www.instagram.com/p/C0CtGskOoKs/">  VER </Link>
+                        </div>
+                        <div className="events-item">
+                            <img className='events-img' src={batalha}/>
+                            <h2>Batalha Brega-Funk</h2>
+                            <h4>14/08/22</h4>
+                            <h5>Recife Antigo</h5>
+                            <Link className="button-events" target="_blank" to="https://www.instagram.com/p/CzjwKlGPFc0/" alt='Batalha Brega-Funk'>  VER </Link>
+                        </div>
+                        <div className="events-item">
+                            <img className='events-img' src={tambor}/>
+                            <h2>Festival de maracatu</h2>
+                            <h4>14/08/22</h4>
+                            <h5>Recife Antigo</h5>
+                            <Link className="button-events" target="_blank" to="/">  VER </Link>
+                        </div>
+                        <div className="events-item">
+                            <img className='events-img' src={feju} alt='6º Festival da Juventude'/>
+                            <h2>6º Festival da Juventude</h2>
+                            <h4>10 à 19 de Novembro</h4>
+                            <h5>Recife</h5>
+                            <Link className="button-events" target="_blank" to="https://www.instagram.com/p/CymH7HMLpkO/">  VER </Link>
+                        </div>
+                        <Link class="button-plus" target="_blank" to="/">  VER MAIS </Link>
+                    </div>
                 </div>
             </div>
-        </div>
-            </div>
-
-            
-
-
-
-
-
             <Footer/>
-    </div>
-        
+        </div>        
     )
 }
 

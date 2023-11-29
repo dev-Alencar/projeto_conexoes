@@ -1,7 +1,7 @@
 import Menu from "./Menu"
 
 
-import './noticias.css'
+import './projeto.css'
 
 import artevisual from './assets/artevisual.jpg'
 import grafiti from './assets/grafiti.webp'
