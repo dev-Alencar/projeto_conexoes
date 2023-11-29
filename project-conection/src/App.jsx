@@ -6,7 +6,6 @@ import Contato from './Contato'
 import Projeto from './Projeto';
 function App() {
   return(
-    <div>
       <BrowserRouter>
         <Routes>
           <Route path='/'element={<Home/>}></Route>
@@ -14,9 +13,7 @@ function App() {
           <Route path='/contato'element={<Contato/>}></Route>
           <Route path='/projeto' element={<Projeto/>}></Route>
         </Routes>
-      </BrowserRouter>
-    </div>
-    
+      </BrowserRouter>  
   )
 }
 

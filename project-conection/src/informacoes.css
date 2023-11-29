@@ -20,7 +20,7 @@
 .box-edit {
     margin-top: 5%;
     margin-bottom: 20%;
-    height: 50vh;
+    /* height: 50vh; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -87,7 +87,7 @@
 .box-form {
     margin-top: 5%;
     /* margin-bottom: 20%; */
-    height: 50vh;
+    /* height: 50vh; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;

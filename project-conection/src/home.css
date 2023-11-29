@@ -379,6 +379,7 @@
   
   .carrossel-container img {
    width: 100%;
+   max-width: 600px;
    height: 80%;
    /* padding: 0 15px; */
    object-fit: cover;
@@ -408,7 +409,7 @@
 .box-events {
     margin-top: 10%;
     margin-bottom: 10%;
-    height: 50vh;
+    /* height: 50vh; */
     
 }
 
@@ -420,19 +421,22 @@
 
 .events-item {
     background-color: var(--cinza-claro);
-    width: 360px;
-    height: 450px;
+    max-width: 200px;
+    max-height: 375px;
+    width: 200px;
+    height: 400px;
     padding-bottom: 20px;
     border-radius: 3%;
     overflow: hidden;
-    
 }
 
 .events-img {
     border-radius: 6%;
     width: fit-content;
-    max-width: 100%;
-    max-height: 50%;
+    max-width: 200px;
+    max-height: 177.5px;
+    height: 177.5px;
+    width: 200px;
     object-fit: cover;
     user-select: none;
 }
@@ -442,7 +446,7 @@
 }
 
 .events-item h2 {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 600;
 }
 
@@ -455,7 +459,7 @@
 .events-item h4, 
 .events-item h5 {
     font-family: var(--fonte-secundaria);
-    padding-left: 1.5rem;
+    padding-left: 1rem;
 }
 
 .button-events {
@@ -469,16 +473,16 @@
     border-radius: 10%;
     padding: 10px 20px;
     display: block;
-    width: 20%;
+    width: 45%;
     margin-top: 15%;
-    margin-left: 75%;
+    margin-left: 28%;
 }
 
 .button-plus {
     font-family: var(--fonte-secundaria);
     color: var(--branco);
     background-color: var(--preto);
-    margin-left: 93.7%;
+    margin-left: 90%;
     padding: 10px;
     text-decoration: none;
     border-radius: 10%;
