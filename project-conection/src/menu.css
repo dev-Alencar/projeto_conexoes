@@ -53,3 +53,15 @@
 .nav-item a:hover {
     color: var(--amarelo);
 }
+
+
+/*menu sandwich*/
+
+.menuButton {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 20px;
+    border: 1px solid white;
+    cursor: pointer;
+}
