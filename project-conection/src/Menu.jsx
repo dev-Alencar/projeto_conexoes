@@ -1,4 +1,4 @@
-import menu from './menu.css'
+import './menu.css'
 import LOGO2 from './assets/LOGO3.png'
 
 import { Link } from "react-router-dom"
@@ -19,11 +19,11 @@ import { Link } from "react-router-dom"
                 </nav>
             </div>
 
-            <div className={menu.menuButton}>
-              <span className='menu.linha'></span>
-              <span className='menu.linha'></span>
-              <span className='menu.linha'></span>
-            </div>
+            {/* <div className='menuButton'>
+              <span className='linha'></span>
+              <span className='linha'></span>
+              <span className='linha'></span>
+            </div> */}
         </div>
     </div>   
     
