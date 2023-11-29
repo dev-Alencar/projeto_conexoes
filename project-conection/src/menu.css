@@ -6,8 +6,9 @@
 }   */
 
 .img-logo {
-    width: 120px;
-    height: 120px;
+    width: 90px;
+    height: 90px;
+    margin: 15px;
 }
 
 /* .logo {
@@ -51,38 +52,4 @@
 
 .nav-item a:hover {
     color: var(--amarelo);
-}
-
-
-/* footer */
-
-.container-footer {
-    display: flex;
-    /* justify-content: space-evenly; */
-    background-color: black;
-    margin-top: 25%;
-    font-size: 14px;
-    padding: 20px 20px 0;
-    /* line-height: 2; */
-    /* white-space: nowrap; */
-}
-
-.footer-title {
-    color: var(--cinza-claro);
-    font-family: var(--fonte-primaria);
-}
-
-.footer-bar {
-    
-}
-.footer-bar2 {
-    /* justify-content: center; */
-}
-.footer-list {
-    width: 135px;
-    text-align: left;
-    color: var(--cinza-claro);
-    font-family: var(--fonte-secundaria);
-    text-decoration: none;
-    color: inherit;
 }

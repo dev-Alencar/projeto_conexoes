@@ -1,5 +1,5 @@
 import './menu.css'
-import LOGO2 from './assets/LOGO1.png'
+import LOGO2 from './assets/LOGO3.png'
 
 import { Link } from "react-router-dom"
 
@@ -14,8 +14,8 @@ import { Link } from "react-router-dom"
                 <nav className='nav-bar'>
                     <Link  className='nav-item' to="/"> Home </Link> <br/> <br/>
                     <Link  target="_blank" className='nav-item' to="/informacoes"> Informações </Link> <br/> <br/>
-                    <Link  target="_blank" className='nav-item' to="/noticias"> Noticias </Link> <br/> <br/>
-                    <Link  target="_blank" className='nav-item' to="/contato"> Contato </Link> <br/> <br/>
+                    <Link  className='nav-item' to="/projeto"> Projeto </Link> <br/> <br/>
+                    <Link  target="_blank" className='nav-item' to="/contato"> LGBT </Link> <br/> <br/>
                 </nav>
             </div>
         </div>
