@@ -182,7 +182,6 @@
     background-color: black;
     flex-grow: 1;
 } 
-@import './index.css';
 
 .main {
     padding: 0 10rem;
