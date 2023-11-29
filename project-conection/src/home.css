@@ -2,6 +2,11 @@
 
 .main {
     padding: 0 10rem;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 2.5rem;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 /* grid imagens */
@@ -163,7 +168,7 @@
   #carrossel li {
     display: inline-block;
     height: 300px;
-    float: left;
+    /* float: left; carrossel ficou cagado quando tirei.*/ 
     position: relative;
     width: 600px;
   }
@@ -212,10 +217,13 @@
 
 .box-events {
     margin-top: 10%;
-    height: 15vh;
+    margin-bottom: 10%;
+    height: 50vh;
+    
 }
 
 .box-events-display {
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -226,16 +234,14 @@
     width: 360px;
     height: 450px;
     padding-bottom: 20px;
-    /* padding-bottom: 1rem;
-    height: 318px; */
-    /* margin: 0 25px 20px 0; */
     border-radius: 3%;
     overflow: hidden;
+    
 }
 
 .events-img {
     border-radius: 6%;
-    /* width: fit-content; */
+    width: fit-content;
     max-width: 100%;
     max-height: 50%;
     object-fit: cover;

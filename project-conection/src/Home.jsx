@@ -100,7 +100,7 @@ function Home () {
                             <h5>Recife</h5>
                             <Link className="button-events" target="_blank" to="https://www.instagram.com/p/CymH7HMLpkO/">  VER </Link>
                         </div>
-                        <Link class="button-plus" target="_blank" to="/">  VER MAIS </Link>
+                        <Link class="button-plus" target="_blank" to="https://www.instagram.com/sejuvrecife/">  VER MAIS </Link>
                     </div>
                 </div>
             </div>
