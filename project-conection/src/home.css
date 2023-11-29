@@ -144,6 +144,190 @@
 }
 /* fim categorias */
 
+/* DESTAQUE */
+
+/* .box-destaques {
+    padding: 30px 0 10px;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.box-destaques img:last-of-type {
+    padding-left: 10px;
+}
+
+.categorias__imagem {
+    margin-bottom: 1.5rem;
+    background-repeat: no-repeat;
+    height: 271px;
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.categorias__imagem:hover {
+    opacity: 0.7;
+}
+*/
+.tittle-destaque {
+    margin: 1rem 0;
+}
+
+.barra {  
+    width: 131px;
+    height: 2px;
+    background-color: black;
+    flex-grow: 1;
+} 
+@import './index.css';
+
+.main {
+    padding: 0 10rem;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 2.5rem;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+/* grid imagens */
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(70%);
+    transition: 0.5s;
+}
+
+.banner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding-top: 20px;
+}
+
+.banner img:hover{
+    filter: grayscale(0%);
+}
+
+.b1 {
+    grid-area: 1 / 1 / 3 / 3;
+}
+.b2 {
+    grid-area: 1 / 3 / 2 / 4;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.b3 {
+    grid-area: 2 / 3 / 3 / 4;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.b4 {
+    grid-area: 1 / 4 / 3 / 5;
+}
+
+/* fim grid imagens */
+
+/* sobre */
+
+.box-about {
+    margin-top: 80px;
+}
+
+.title {
+    font-size: 32px;
+    font-weight:400;
+    color: var(--preto);
+    font-family: var(--fonte-primaria);
+}
+
+.text-about {
+    width: 100%;
+    font-size: 20px;
+    font-family: var(--fonte-secundaria);
+    font-weight:400;
+    color: var(--preto);
+    text-align: justify;
+}
+
+/* fim do sobre */
+
+
+.box-container {
+    display: flex;
+}
+
+.box-category {
+    width: 100%;
+}
+
+.box-destaques {
+    width: 100%;
+}
+
+/* categorias */
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: var(--fonte-secundaria);
+}
+
+
+.list-item {
+    flex-wrap: wrap;
+    width: 40%;
+    margin: 5px;
+    text-align: center;
+    padding: 20px; 
+    font-size: 20px;
+    transition: 0.5s;
+    opacity: 1;
+    cursor: pointer;
+    text-transform: uppercase;
+    user-select: none;
+    text-decoration: none;
+    color: inherit;     /* retira o estilo padrão de links visitados*/
+}
+
+.list-item:hover{
+    opacity: 0.7;
+}
+
+.list-item:nth-child(1) {
+    background-color: var(--amarelo);
+}
+
+.list-item:nth-child(2) {
+    background-color: var(--roxo);
+}
+
+.list-item:nth-child(5) {
+    background-color: var(--rosa);
+}
+
+.list-item:nth-child(6) {
+    background-color: var(--laranja);
+}
+
+.list-item:nth-child(3) {
+    background-color: var(--azul);
+}
+
+.list-item:nth-child(4) {
+    background-color: var(--verde);
+}
+/* fim categorias */
+
 /* carrossel */
 
 .barra {
@@ -153,22 +337,24 @@
 }
 #carrossel, ul {
     height: 300px;
+    overflow: hidden;
   }
 
 #carrossel {
     display: flex;
     position: absolute;
     width: 41.4%;
-    height: 300px;
+    height: 215px;
     margin: 0;
     overflow: hidden;
     margin-top: 0px;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
   }
+
   #carrossel li {
     display: inline-block;
     height: 300px;
-    /* float: left; carrossel ficou cagado quando tirei.*/ 
+    float: left;
     position: relative;
     width: 600px;
   }
@@ -185,15 +371,19 @@
    margin: 0 auto;
    padding: 0;
    width: 600px;
+   overflow: hidden;
   }
+  
   .carrossel-container img {
-   width: 100%;
-   height: 100%;
+   width: 60%;
+   height: 60%;
+   
    /* padding: 0 15px; */
    object-fit: cover;
    margin-right: 10px;
    margin-left: 10px
   }
+
   #carrossel ul {
     animation: slide 20s infinite;
   }
@@ -209,9 +399,7 @@
      100% { left: 0; }
   }
 
-  .box-next-event {
-    width: 400px ;
-}
+/* FIM DESTAQUE */
 
 /* eventos  */
 
@@ -223,7 +411,6 @@
 }
 
 .box-events-display {
-    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;

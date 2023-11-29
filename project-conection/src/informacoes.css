@@ -1,13 +1,101 @@
 @import './index.css';
 
-
-
-.title-informacoes {
-    font-family: var(--fonte-primaria);
-    font-size: 32px;
-    line-height: 40.22px;
+.main {
+    padding: 0 10rem;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 2.5rem;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
+.title-informacoes {
+    margin-top: 5%;
+    font-size: 32px;
+    font-weight:400;
+    color: var(--preto);
+    font-family: var(--fonte-primaria);
+}
+
+.box-edit {
+    margin-top: 5%;
+    margin-bottom: 20%;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box-item {
+    background-color: var(--cinza-claro);
+    width: 360px;
+    height: 300px;
+    padding-bottom: 10px;
+    border-radius: 3%;
+    overflow: hidden;
+    /* margin: auto; */
+    margin-bottom: 5%;
+}
+
+.edit-img {
+    height: 45%;
+    width: fit-content;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    user-select: none;
+}
+
+.box-item img {
+    width: 100%;
+}
+
+.box-item h2 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.box-item h2,
+.box-item h4 {
+    font-family: var(--fonte-secundaria);
+    padding-left: 1.5rem;
+    text-transform: uppercase;
+}
+
+.button-edit {
+    white-space: nowrap;
+    font-family: var(--fonte-secundaria);
+    background-color: var(--preto);
+    color: var(--branco);
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    transition: 0.5s;
+    border-radius: 5%;
+    padding: 10px 30px;
+    display: block;
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 55%;
+    position:;
+}
+
+.button-edit:hover{
+    background-color: var(--amarelo);
+}
+
+.box-form {
+    margin-top: 5%;
+    /* margin-bottom: 20%; */
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+/* LUCAS
 .box-escuro {
     Width: 124.3px;
     Height: 181.48px;
@@ -47,7 +135,4 @@
     line-height: 16.42px;
     color: #FFFF;
     text-decoration: none;
-}
-
-
-
+} */

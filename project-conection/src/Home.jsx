@@ -12,6 +12,12 @@ import teatro from './assets/teatro.jpg'
 import tambor from './assets/tambor.jpg'
 import feju from './assets/FEJU.png'
 import batalha from './assets/BATALHA.jpg'
+import foto1 from './assets/foto1.jpg'
+import foto2 from './assets/foto2.jpg'
+import foto3 from './assets/foto3.jpg'
+import event1 from './assets/event1.jpg'
+
+
 function Home () {
     return (
         <div>
@@ -35,7 +41,7 @@ function Home () {
                         <h1 className="title"> CATEGORIAS </h1>
                         <nav className="list">
                             <Link  target="_blank" className='list-item' to="/"> Guias </Link>
-                            <Link  target="_blank" className='list-item' to="/"> Informações </Link>
+                            <Link  className='list-item' to="/informacoes"> Informações </Link>
                             <Link  target="_blank" className='list-item' to="https://www.instagram.com/stories/highlights/18248633476056323/"> Equipe </Link>
                             <Link  target="_blank" className='list-item' to="https://www.gov.br/mdh/pt-br/idjovem"> ID JOVEM </Link>
                             <Link  target="_blank" className='list-item' to="/"> Inscrições </Link>
@@ -50,17 +56,17 @@ function Home () {
                             <ul>
                                 <li>
                                     <div className="carrossel-container">
-                                        <img src="https://i1.wp.com/emotioncard.com.br/wp-content/uploads/2016/03/10-nat1.jpg?resize=660%2C495&ssl=1" alt="img1" />
+                                        <img src={foto1} alt="img1" />
                                     </div>
                                 </li>
                                 <li>
                                     <div className="carrossel-container">
-                                        <img src="https://s.dicio.com.br/teste.png" alt="img1" />    
+                                        <img src={foto2} alt="img2" />    
                                     </div>
                                 </li>
                                 <li>
                                     <div className="carrossel-container">
-                                        <img src="https://i0.wp.com/emotioncard.com.br/wp-content/uploads/2016/03/natureza_.jpg?resize=660%2C352&ssl=1" alt="img1" />   
+                                        <img src={foto3} alt="img3" />   
                                     </div>
                                 </li>
                             </ul>
@@ -73,7 +79,7 @@ function Home () {
                     <h1 className='title'>PRÓXIMOS EVENTOS</h1>
                     <div className="box-events-display">
                         <div className="events-item">
-                            <img className='events-img' src={tambor} alt='Conexões Periféricas'/>
+                            <img className='events-img' src={event1} alt='Conexões Periféricas'/>
                             <h2>Festival de maracatu</h2>
                             <h4>14/08/22</h4>
                             <h5>Recife Antigo</h5>
