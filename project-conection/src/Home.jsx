@@ -41,7 +41,7 @@ function Home () {
                         <h1 className="title"> CATEGORIAS </h1>
                         <nav className="list">
                             <Link  target="_blank" className='list-item' to="/"> Guias </Link>
-                            <Link  className='list-item' to="/informacoes"> Informações </Link>
+                            <Link target="_blank" className='list-item' to="/informacoes"> Informações </Link>
                             <Link  target="_blank" className='list-item' to="https://www.instagram.com/stories/highlights/18248633476056323/"> Equipe </Link>
                             <Link  target="_blank" className='list-item' to="https://www.gov.br/mdh/pt-br/idjovem"> ID JOVEM </Link>
                             <Link  target="_blank" className='list-item' to="/"> Inscrições </Link>
