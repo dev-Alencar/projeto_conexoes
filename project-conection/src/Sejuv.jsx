@@ -9,6 +9,15 @@ import banner2 from './assets/banner2.png'
 import banner3 from './assets/banner3.png'
 import banner4 from './assets/banner4.png'
 import banner5 from './assets/banner5.png'
+import equipe1 from './assets/equipe1.jpg'
+import equipe2 from './assets/equipe2.jpg'
+import equipe3 from './assets/equipe3.jpg'
+import equipe4 from './assets/equipe4.jpg'
+import equipe5 from './assets/equipe5.jpg'
+import equipe6 from './assets/equipe6.png'
+import equipe7 from './assets/equipe7.jpg'
+import equipe8 from './assets/equipe8.jpg'
+// import equipe9 from './assets/equipe9.jpg'
 
 
 
@@ -28,8 +37,49 @@ function Sejuv () {
                 </div>
                 <div className='box-text'>
                     <h1 className='title'> Equipe SEJUV </h1>
-                    <p className='text-about'> Bem-vindo ao site da Sejuv Recife, a Secretaria Executiva da Juventude que tem como missão principal promover e fortalecer a participação ativa dos jovens na construção de uma cidade mais inclusiva e dinâmica. 
-                    Aqui você irá encontrar datas dos próximos eventos, formulários para inscrições, editais e outras informações como nossas redes sociais e canais de contato.</p>
+                    <p className='text-about'> aaaeiou</p>
+                </div>
+                <div className="box-equipe-display">
+                    <div className='box-equipe'>
+                        <img src={equipe1} className="equipe-img" alt="Marcone"></img>
+                        <div className="overlay">
+                        </div>
+                    </div>
+                    <div className='box-equipe'>
+                        <img src={equipe2} className="equipe-img" alt="Mariana"></img>
+                        <div className="overlay">
+                        </div>
+                    </div>
+                    <div className='box-equipe'>
+                        <img src={equipe3} className="equipe-img" alt="Givysson"></img>
+                        <div className="overlay">
+                        </div>
+                    </div>
+                    <div className='box-equipe'>
+                        <img src={equipe4} className="equipe-img" alt="Karina"></img>
+                        <div className="overlay">
+                        </div>
+                    </div>
+                    <div className='box-equipe'>
+                        <img src={equipe5} className="equipe-img" alt="Jarda"></img>
+                        <div className="overlay">
+                        </div>
+                    </div>
+                    <div className='box-equipe'>
+                        <img src={equipe6} className="equipe-img" alt="Danylo"></img>
+                        <div className="overlay">
+                        </div>
+                    </div>
+                    <div className='box-equipe'>
+                        <img src={equipe7} className="equipe-img" alt="Jacqueline"></img>
+                        <div className="overlay">
+                        </div>
+                    </div>
+                    <div className='box-equipe'>
+                        <img src={equipe8} className="equipe-img" alt="Kaline"></img>
+                        <div className="overlay">
+                        </div>
+                    </div>
                 </div>
             </div>
             <Footer/>
