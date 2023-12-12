@@ -37,7 +37,7 @@ function Sejuv () {
                 </div>
                 <div className='box-text'>
                     <h1 className='title'> Equipe SEJUV </h1>
-                    <p className='text-about'> aaaeiou</p>
+                    {/* <p className='text-about'> texto </p> */}
                 </div>
                 <div className="box-equipe-display">
                     <div className='box-equipe'>
