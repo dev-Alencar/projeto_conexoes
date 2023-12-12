@@ -40,7 +40,7 @@ function Informacoes () {
                     </div>
                     <div className="box-item">
                         <img className="edit-img" src={editais} alt='img1'/>
-                        <h2> 6º Festival da Juventude</h2>
+                        <h2> 6º Festival da Juventude do Recife</h2>
                         <h4>Inscrições Abertas!</h4>
                         <Link target="_blank" className="button-edit" to="/"> saiba mais </Link>
                     </div>
@@ -52,7 +52,7 @@ function Informacoes () {
                     </div>
                     <div className="box-item">
                         <img className="edit-img" src={conexoes} alt='img1'/>
-                        <h2> Projeto Conexões Perifericas</h2>
+                        <h2> Programa Conexões Perifericas</h2>
                         <h4>Curso de Programação web</h4>
                         <Link target="_blank" className="button-edit" to="https://favela.org.br/edital-academia-conexoes-perifericas/"> saiba mais </Link>
                     </div>
@@ -64,8 +64,8 @@ function Informacoes () {
                     </div>
                     <div className="box-item">
                         <img className="edit-img" src={municipal} alt='img1'/>
-                        <h2> Plano Municipal de Juventude</h2>
-                        <h4>RECIFE 2016-2026</h4>
+                        <h2> Plano Municipal de <br></br>Juventude do Recife</h2>
+                        <h4>2016-2026</h4>
                         <Link target="_blank" className="button-edit" to="https://drive.google.com/file/d/1hq27GIo1TY1j6Axl_Lyncdb2DlQLpJrm/view"> saiba mais </Link>
                     </div>
                     <div className="box-item">

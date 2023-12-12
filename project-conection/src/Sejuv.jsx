@@ -42,42 +42,50 @@ function Sejuv () {
                 <div className="box-equipe-display">
                     <div className='box-equipe'>
                         <img src={equipe1} className="equipe-img" alt="Marcone"></img>
+                        <h2>Marcone Ribeiro <br></br> </h2> <p>Secretario Executivo de Juventude do Recife</p>
                         <div className="overlay">
                         </div>
                     </div>
                     <div className='box-equipe'>
                         <img src={equipe2} className="equipe-img" alt="Mariana"></img>
-                        <div className="overlay">
+                        <h2>Mariana Lyra <br></br> </h2> <p>Gerência de Políticas Públicas de Juventude</p>
+                        <div className="overlay2">
                         </div>
                     </div>
                     <div className='box-equipe'>
                         <img src={equipe3} className="equipe-img" alt="Givysson"></img>
-                        <div className="overlay">
+                        <h2>Givysson Rodrigues <br></br> </h2> <p>Articulação Social</p>
+                        <div className="overlay3">
                         </div>
                     </div>
                     <div className='box-equipe'>
                         <img src={equipe4} className="equipe-img" alt="Karina"></img>
-                        <div className="overlay">
+                        <h2>Karina Oliveira <br></br> </h2> <p>Articulação e Projetos Intersetoriais</p>
+                        <div className="overlay4">
                         </div>
                     </div>
                     <div className='box-equipe'>
                         <img src={equipe5} className="equipe-img" alt="Jarda"></img>
-                        <div className="overlay">
+                        <h2>Jarda Araújo <br></br> </h2> <p>Articulação e Projetos Intersetoriais</p>
+                        <div className="overlay5">
                         </div>
                     </div>
                     <div className='box-equipe'>
                         <img src={equipe6} className="equipe-img" alt="Danylo"></img>
-                        <div className="overlay">
+                        <h2>Danylo Santos <br></br> </h2> <p>Articulação Social</p>
+                        <div className="overlay6">
                         </div>
                     </div>
                     <div className='box-equipe'>
                         <img src={equipe7} className="equipe-img" alt="Jacqueline"></img>
-                        <div className="overlay">
+                        <h2>Jacqueline Sartunino <br></br> </h2> <p>Juventude Participa</p>
+                        <div className="overlay7">
                         </div>
                     </div>
                     <div className='box-equipe'>
                         <img src={equipe8} className="equipe-img" alt="Kaline"></img>
-                        <div className="overlay">
+                        <h2>Kaline Barros <br></br> </h2> <p>Administrativo</p>
+                        <div className="overlay8">
                         </div>
                     </div>
                 </div>

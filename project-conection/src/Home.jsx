@@ -46,7 +46,7 @@ function Home () {
                             <Link  target="_blank" className='list-item' to="/informacoes"> Informações </Link>
                             <Link  target="_blank" className='list-item' to="/Sejuv"> A SEJUV </Link>
                             <Link  target="_blank" className='list-item' to="https://www.gov.br/mdh/pt-br/idjovem"> ID JOVEM </Link>
-                            <Link  target="_blank" className='list-item' to="/"> Inscrições </Link>
+                            <Link  target="_blank" className='list-item' to="/Projeto"> Projeto </Link>
                             <Link  target="_blank" className='list-item' to="https://linktr.ee/denunciaspr"> Denuncias </Link>
                         </nav>
                     </section>

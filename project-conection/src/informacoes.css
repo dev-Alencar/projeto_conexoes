@@ -28,10 +28,10 @@
 
 .box-item {
     background-color: var(--cinza-claro);
-    width: 360px;
-    height: 300px;
-    max-width: 360px;
-    max-height: 300px;
+    width: 230px;
+    height: 260px;
+    max-width: 230px;
+    max-height: 260px;
     padding-bottom: 10px;
     border-radius: 3%;
     overflow: hidden;
@@ -53,7 +53,7 @@
 }
 
 .box-item h2 {
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 600;
 }
 
@@ -62,6 +62,7 @@
     font-family: var(--fonte-secundaria);
     padding-left: 1.5rem;
     text-transform: uppercase;
+    font-size: 12px;
 }
 
 .button-edit {
@@ -74,12 +75,12 @@
     text-align: center;
     transition: 0.5s;
     border-radius: 5%;
-    padding: 10px 30px;
+    padding: 6px 10px;
     display: block;
     width: 40%;
     margin-top: 5%;
     margin-left: 55%;
-    position:;
+    font-size: 12px;
 }
 
 .button-edit:hover{
