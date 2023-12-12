@@ -16,6 +16,8 @@ import foto1 from './assets/foto1.jpg'
 import foto2 from './assets/foto2.jpg'
 import foto3 from './assets/foto3.jpg'
 import event1 from './assets/event1.jpg'
+import virada from './assets/virada.jpg'
+import ja from './assets/joycealane.jpg'
 
 
 function Home () {
@@ -40,13 +42,12 @@ function Home () {
                     <section className="box-category">
                         <h1 className="title"> CATEGORIAS </h1>
                         <nav className="list">
-                            <Link  target="_blank" className='list-item' to="/"> Guias </Link>
-                            <Link target="_blank" className='list-item' to="/informacoes"> Informações </Link>
-                            <Link  target="_blank" className='list-item' to="https://www.instagram.com/stories/highlights/18248633476056323/"> Equipe </Link>
+                            <Link  target="_blank" className='list-item' to="https://drive.google.com/file/d/1J4KHa6PQ-GTGoxJCrIJsaGGSLDtwKeba/view"> Guias </Link>
+                            <Link  target="_blank" className='list-item' to="/informacoes"> Informações </Link>
+                            <Link  target="_blank" className='list-item' to="/Sejuv"> A SEJUV </Link>
                             <Link  target="_blank" className='list-item' to="https://www.gov.br/mdh/pt-br/idjovem"> ID JOVEM </Link>
                             <Link  target="_blank" className='list-item' to="/"> Inscrições </Link>
-                            <Link  target="_blank" className='list-item' to="https://xopreconceito.recife.pe.gov.br/denrs/"> Denuncias </Link>
-                            
+                            <Link  target="_blank" className='list-item' to="https://linktr.ee/denunciaspr"> Denuncias </Link>
                         </nav>
                     </section>
                     <section className="box-destaques">
@@ -79,25 +80,25 @@ function Home () {
                     <h1 className='title'>PRÓXIMOS EVENTOS</h1>
                     <div className="box-events-display">
                         <div className="events-item">
-                            <img className='events-img' src={event1} alt='Conexões Periféricas'/>
-                            <h2>Festival de maracatu</h2>
-                            <h4>14/08/22</h4>
-                            <h5>Recife Antigo</h5>
-                            <Link className="button-events" target="_blank" to="https://www.instagram.com/p/C0CtGskOoKs/">  VER </Link>
+                            <img className='events-img' src={virada}/>
+                            <h2>Virada Recife 2024</h2>
+                            <h4>Dia 29,30 e 31 de Dezembro</h4>
+                            <h5>@prefeiturarecife</h5>
+                            <Link className="button-events" target="_blank" to="https://www.instagram.com/p/C0SdadjrnlR/">  VER </Link>
+                        </div>
+                        <div className="events-item">
+                            <img className='events-img' src={ja} alt='Conexões Periféricas'/>
+                            <h2>6º Festival da Juventude</h2>
+                            <h4>18 de Novembro</h4>
+                            <h5>Polo Cais da Alfandega</h5>
+                            <Link className="button-events" target="_blank" to="https://www.instagram.com/p/Czw6Q9Fri5D/">  VER </Link>
                         </div>
                         <div className="events-item">
                             <img className='events-img' src={batalha}/>
                             <h2>Batalha Brega-Funk</h2>
-                            <h4>14/08/22</h4>
-                            <h5>Recife Antigo</h5>
+                            <h4>12 de Novembro</h4>
+                            <h5>Rua do Observatório</h5>
                             <Link className="button-events" target="_blank" to="https://www.instagram.com/p/CzjwKlGPFc0/" alt='Batalha Brega-Funk'>  VER </Link>
-                        </div>
-                        <div className="events-item">
-                            <img className='events-img' src={tambor}/>
-                            <h2>Festival de maracatu</h2>
-                            <h4>14/08/22</h4>
-                            <h5>Recife Antigo</h5>
-                            <Link className="button-events" target="_blank" to="/">  VER </Link>
                         </div>
                         <div className="events-item">
                             <img className='events-img' src={feju} alt='6º Festival da Juventude'/>

@@ -1,0 +1,24 @@
+
+
+
+.box-banner {
+    /* display: grid; */
+    padding-top: 20px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: px;
+    grid-row-gap: 0px;
+}
+
+.parent img {
+    width: 300px;
+    height: 385px;
+}
+
+.box-text {
+    margin-top: 80px;
+}

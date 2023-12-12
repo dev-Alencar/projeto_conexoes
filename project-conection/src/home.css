@@ -213,6 +213,7 @@
 
 .banner img:hover{
     filter: grayscale(0%);
+    opacity: 1;
 }
 
 .b1 {
@@ -402,7 +403,7 @@
      100% { left: 0; }
   }
 
-/* FIM DESTAQUE */
+/* FIM CARROSSEL */
 
 /* eventos  */
 

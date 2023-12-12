@@ -15,7 +15,7 @@
     color: var(--cinza-claro);
     font-size: 14px;
     font-family: var(--fonte-primaria);
-    padding: 20px 100px 100px;
+    padding: 20px 100px 50px;
     justify-content: space-between;
     /* justify-content: space-evenly; */
     /* white-space: nowrap; */

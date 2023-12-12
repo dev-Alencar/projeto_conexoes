@@ -19,7 +19,7 @@
 
 .box-edit {
     margin-top: 5%;
-    margin-bottom: 20%;
+    /* margin-bottom: 10%; */
     /* height: 50vh; */
     display: flex;
     flex-wrap: wrap;
@@ -30,6 +30,8 @@
     background-color: var(--cinza-claro);
     width: 360px;
     height: 300px;
+    max-width: 360px;
+    max-height: 300px;
     padding-bottom: 10px;
     border-radius: 3%;
     overflow: hidden;

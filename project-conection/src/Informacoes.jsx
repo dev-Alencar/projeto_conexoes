@@ -13,6 +13,9 @@ import insshow from './assets/insshow.jpg'
 import resultconexoes from './assets/resultconexoes.jpg'
 import conexoes from './assets/conexoes.jpg'
 import conexoes2 from './assets/conexoes2.png'
+import municipal from './assets/municipaljuventude.png'
+import condicao from './assets/condicao.png'
+import juventudep from './assets/juventudepar.png'
 
 
 function Informacoes () {
@@ -22,6 +25,7 @@ function Informacoes () {
             <div className="main">
             <h1 className='title-informacoes'>Editais</h1>
                 <div className="box-edit">
+                    
                     <div className="box-item">
                         <img className="edit-img" src={resultempreendedor} alt='img1'/>
                         <h2> LISTA DOS SELECIONADOS EMPREENDEDORES JOVENS</h2>
@@ -30,8 +34,8 @@ function Informacoes () {
                     </div>
                     <div className="box-item">
                         <img className="edit-img" src={editais} alt='img1'/>
-                        <h2> 6º Festival da Juventude</h2>
-                        <h4>Inscrições Abertas!</h4>
+                        <h2>SELEÇÃO DE EXPRESSÕES ARTÍSTICAS JUVENIS</h2>
+                        <h4>Polo Ibura</h4>
                         <Link target="_blank" className="button-edit" to="/"> saiba mais </Link>
                     </div>
                     <div className="box-item">
@@ -47,29 +51,30 @@ function Informacoes () {
                         <Link target="_blank" className="button-edit" to="https://drive.google.com/file/d/1Do20zsQqJmm4JkQJ0UzfDXyqNrsDpTOb/view"> saiba mais </Link>
                     </div>
                     <div className="box-item">
-                        <img className="edit-img" src={editais} alt='img1'/>
-                        <h2> 6º Festival da Juventude</h2>
-                        <h4>Inscrições Abertas!</h4>
-                        <Link target="_blank" className="button-edit" to="/"> saiba mais </Link>
-                    </div>
-                    <div className="box-item">
-                        <img className="edit-img" src={editais} alt='img1'/>
-                        <h2> 6º Festival da Juventude</h2>
-                        <h4>Inscrições Abertas!</h4>
-                        <Link target="_blank" className="button-edit" to="/"> saiba mais </Link>
-                    </div>
-                    <div className="box-item">
-                        <img className="edit-img" src={editais} alt='img1'/>
-                        <h2> 6º Festival da Juventude</h2>
-                        <h4>Inscrições Abertas!</h4>
-                        <Link target="_blank" className="button-edit" to="/"> saiba mais </Link>
-                    </div>
-                    <div className="box-item">
                         <img className="edit-img" src={conexoes} alt='img1'/>
                         <h2> Projeto Conexões Perifericas</h2>
                         <h4>Curso de Programação web</h4>
                         <Link target="_blank" className="button-edit" to="https://favela.org.br/edital-academia-conexoes-perifericas/"> saiba mais </Link>
                     </div>
+                    <div className="box-item">
+                        <img className="edit-img" src={juventudep} alt='img1'/>
+                        <h2>Juventude Participa</h2>
+                        <h4>Disseminação sobre o EJ no Recife</h4>
+                        <Link target="_blank" className="button-edit" to="https://drive.google.com/file/d/1wKjQI0qxNWC7olBXwnsNs_9UUqqUU6X3/view"> saiba mais </Link>
+                    </div>
+                    <div className="box-item">
+                        <img className="edit-img" src={municipal} alt='img1'/>
+                        <h2> Plano Municipal de Juventude</h2>
+                        <h4>RECIFE 2016-2026</h4>
+                        <Link target="_blank" className="button-edit" to="https://drive.google.com/file/d/1hq27GIo1TY1j6Axl_Lyncdb2DlQLpJrm/view"> saiba mais </Link>
+                    </div>
+                    <div className="box-item">
+                        <img className="edit-img" src={condicao} alt='img1'/>
+                        <h2> Condição Juvenil</h2>
+                        <h4>Reflexos a partir do Recife</h4>
+                        <Link target="_blank" className="button-edit" to="https://drive.google.com/file/d/1Sd5cAfrQRlRUIFZMmIZnJWeh8ZDo5pCe/view"> saiba mais </Link>
+                    </div>
+                    
                 </div>
             <h1 className='title-informacoes'>Formulários</h1>
                 <div className="box-form">
@@ -93,7 +98,7 @@ function Informacoes () {
                     </div>
                     <div className="box-item">
                         <img className="edit-img" src={conexoes2} alt='img1'/>
-                        <h2> Projeto Conexoes Perifericas - 2º Turma - 2023</h2>
+                        <h2> Programa Conexoes Perifericas - 2º Turma - 2023</h2>
                         <h4>Inscrições Encerradas!</h4>
                         <Link target="_blank" className="button-edit" to="/"> saiba mais </Link>
                     </div>
