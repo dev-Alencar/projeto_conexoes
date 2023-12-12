@@ -15,6 +15,7 @@ import batalha from './assets/BATALHA.jpg'
 import foto1 from './assets/foto1.jpg'
 import foto2 from './assets/foto2.jpg'
 import foto3 from './assets/foto3.jpg'
+import foto4 from './assets/conexoes2turma.jpg'
 import event1 from './assets/event1.jpg'
 import virada from './assets/virada.jpg'
 import ja from './assets/joycealane.jpg'
@@ -68,6 +69,11 @@ function Home () {
                                 <li>
                                     <div className="carrossel-container">
                                         <img src={foto3} alt="img3" />   
+                                    </div>
+                                </li>
+                                <li>
+                                    <div className="carrossel-container">
+                                        <img src={foto4} alt="img4" />   
                                     </div>
                                 </li>
                             </ul>

@@ -449,6 +449,7 @@
 .events-item h2 {
     font-size: 15px;
     font-weight: 600;
+    background: none;
 }
 
 .events-item h4, 
